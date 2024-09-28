@@ -1,0 +1,101 @@
+.Navbar{
+    padding:24px 42px;
+}
+.top-nav{
+    position: relative;
+}
+.Navbar .icon{
+    width: 30px;
+    height: 30px;
+    font-weight: 300;
+}
+
+.Navbar .logo{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.icon-container{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+
+    border-radius: 50%;
+    border:2px solid #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container img{
+    opacity: 0.8;
+}
+
+.Navbar .hamburger img{
+    width: 36px;
+    height: 36px;
+}
+
+.Navbar img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.Navbar .category{
+    padding:14px 20px;
+    background:#f3f3f3;
+    border-radius: 12px;
+    cursor: pointer;
+    transition:all 0.3s;
+}
+
+.Navbar p{
+    margin: 0;
+}
+
+.Navbar .category:hover{
+    background: #d7d7d7;
+}
+
+.Navbar .search {
+    position: relative;
+    flex:1;
+}
+
+.Navbar .search input{
+    width: 100%;
+    height: 100%;
+    padding:16px 24px;
+    border:none;
+    outline: none;
+    background: #f3f3f3;
+    border-radius: 12px;
+    font-size: 1rem !important;
+}
+
+.Navbar .search input::placeholder{
+    font-size: 1rem !important;
+    color:#000;
+}
+
+.Navbar .search img {
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:20px;
+
+    background-color: white;
+    border-radius:50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.Navbar .search img:hover{
+    opacity: 1;
+}
