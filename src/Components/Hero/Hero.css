@@ -1,6 +1,7 @@
 .Hero {
   padding: 24px 42px;
   width: 100%;
+  position: relative;
 }
 
 .hero-container {
@@ -10,17 +11,47 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  padding: 20px 30px;
+  overflow: hidden;
 }
 .bag-container {
   position: absolute;
-  bottom: -160px;
-  left: 35%;
-  transform: translateX(-35%);
+  bottom: -200px;
+  left: 30%;
+  transform: translateX(-30%);
   transform: rotate(20deg);
+  z-index: 1;
 }
 
 .bag-container img {
-  width: 600px;
+  width: 800px;
   height: auto;
   object-fit: cover;
+}
+
+.bag-header {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.bag-header h1 {
+  font-size: 52px;
+  font-weight: 300;
+  color: black;
+}
+
+.bag-header h1:nth-child(1) {
+  text-align: right;
+}
+
+.back-text {
+  font-size: 20rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #ececec;
+  position: absolute;
+  bottom: -150px;
+  left: 50%;
+  transform: translateX(-50%);
 }
