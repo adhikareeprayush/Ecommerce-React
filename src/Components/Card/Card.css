@@ -73,6 +73,22 @@
     align-items: center;
     transition: transform 0.3s ease;
   }
+
+  .brand-logo {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .brand-logo img {
+    filter: brightness(0);
+    max-width: 100%;
+    height: auto;
+  }
   
   .brand-logo:hover {
     transform: scale(1.05);
