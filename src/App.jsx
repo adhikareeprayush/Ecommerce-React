@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Hero from './Components/Hero/Hero.jsx';
 import Card from './Components/Card/Card.jsx';
+import BrandLogos from './Components/Card/BrandLogos.jsx';
 function App() {
 
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Card />
+      <BrandLogos />
     </>
   )
 }
