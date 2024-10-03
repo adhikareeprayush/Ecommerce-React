@@ -1,0 +1,26 @@
+.Hero {
+  padding: 24px 42px;
+  width: 100%;
+}
+
+.hero-container {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.bag-container {
+  position: absolute;
+  bottom: -160px;
+  left: 35%;
+  transform: translateX(-35%);
+  transform: rotate(20deg);
+}
+
+.bag-container img {
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+}
