@@ -23,9 +23,17 @@ const Hero = () => {
                         <p>Discover the epitome Of style and craftsmanship
                             with our curated leather bag collection.</p>
                     </div>
-                    <button className='btn btn-primary m-0'>
+                    <button className='btn button-primary m-0'>
                         <span>Start Shopping</span>
                         <img src={rightArrow} />
+                    </button>
+                </div>
+                <div className="controls">
+                    <button className="btn prev-btn disabled">
+                        <img src={rightArrow} alt="" />
+                    </button>
+                    <button className="btn next-btn">
+                        <img src={rightArrow} alt="" />
                     </button>
                 </div>
             </div>

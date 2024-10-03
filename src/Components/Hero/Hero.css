@@ -76,18 +76,24 @@
 }
 
 .btn {
-  background-color: white;
+  outline: none;
+  border: none;
+}
+
+button.button-primary {
+  background-color: white !important;
   color: black;
-  padding: 10px 20px;
-  border-radius: 20px;
-  border: 3px solid #ececec;
-  margin-top: 20px;
+  padding: 12px 20px !important;
+  border-radius: 20px !important;
+  border: 3px solid #ececec !important;
   cursor: pointer;
   width: fit-content;
+  font-weight: 400;
+  font-size: 1.1rem !important;
   transition: all 0.3s;
 }
 
-.btn:hover {
+.button-primary:hover {
   background-color: #ececec;
   border: 3px solid white;
   color: black;
@@ -97,4 +103,43 @@
   position: absolute;
   top: 50px;
   right: 70px;
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateX(-50%);
+}
+
+.controls img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.prev-btn img {
+  transform: rotate(180deg);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.controls .btn {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.controls .btn:hover {
+  background-color: #ececec;
+}
+
+.btn.disabled {
+  pointer-events: none;
+  opacity: 0.5;
 }
