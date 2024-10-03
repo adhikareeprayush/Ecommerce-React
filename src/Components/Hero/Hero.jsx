@@ -1,5 +1,7 @@
 import './Hero.css'
 import heroBag from '../../assets/luxury-woman-handbag.png'
+import downArrow from '../../assets/icons/arrow-up-right-svgrepo-com.svg'
+import rightArrow from '../../assets/icons/arrow-right-svgrepo-com.svg'
 
 const Hero = () => {
     return (
@@ -15,8 +17,18 @@ const Hero = () => {
                 <div className="back-text">
                     Prayush
                 </div>
+                <div className="top-link d-flex flex-column gap-1">
+                    <div className="top-desc d-flex align-items-start gap-2">
+                        <img src={downArrow} />
+                        <p>Discover the epitome Of style and craftsmanship
+                            with our curated leather bag collection.</p>
+                    </div>
+                    <button className='btn btn-primary m-0'>
+                        <span>Start Shopping</span>
+                        <img src={rightArrow} />
+                    </button>
+                </div>
             </div>
-
         </div>
     )
 }
