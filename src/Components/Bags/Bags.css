@@ -7,3 +7,30 @@
   justify-content: space-between;
   gap: 24px;
 }
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 42px;
+}
+
+form.bagCategory .option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+form.bagCategory label {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+/* Styling the radio button */
+form.bagCategory input[type="radio"] {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  accent-color: black;
+}

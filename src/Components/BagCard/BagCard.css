@@ -36,8 +36,22 @@
   gap: 10px;
 }
 
+.right-controls .heart,
+.right-controls .cart {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .right-controls img {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   object-fit: contain;
 }

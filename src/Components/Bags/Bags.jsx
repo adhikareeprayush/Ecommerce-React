@@ -52,11 +52,27 @@ const Bags = () => {
 
 
     return (
-        <div className='bags'>
-            {bags.map((bag, index) => (
-                <BagCard key={index} bagImage={bag.bagImage} bagTitle={bag.bagTitle} bagPrice={bag.bagPrice} />
-            ))}
-        </div>
+        <>
+            <form className='bagCategory'>
+                <div className="option">
+                    <input type="radio" name="all" id="all_collection" />
+                    <label htmlFor="all">All Collection</label>
+                </div>
+                <div className="option">
+                    <input type="radio" name="new" id="new_collection" />
+                    <label htmlFor="new">New Collection</label>
+                </div>
+                <div className="option">
+                    <input type="radio" name="popular" id="popular_collection" />
+                    <label htmlFor="popular">Popular Collection</label>
+                </div>
+            </form>
+            <div className='bags'>
+                {bags.map((bag, index) => (
+                    <BagCard key={index} bagImage={bag.bagImage} bagTitle={bag.bagTitle} bagPrice={bag.bagPrice} />
+                ))}
+            </div>
+        </>
     )
 }
 

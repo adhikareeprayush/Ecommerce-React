@@ -10,9 +10,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <SupportedBy />
       <BrandsCards />
       <Bags />
+      <SupportedBy />
     </>
   )
 }
