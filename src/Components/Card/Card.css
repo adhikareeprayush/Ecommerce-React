@@ -13,78 +13,11 @@
   gap: 16px;
 }
 
-<<<<<<< HEAD
 .card img {
   width: 70px;
   height: 70px;
   object-fit: contain;
 }
-=======
-  .brand-logos-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-  }
-  
-  .brand-logos-title {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .brand-logos-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-  
-  .brand-logo {
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.3s ease;
-  }
-
-  .brand-logo {
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .brand-logo img {
-    filter: brightness(0);
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .brand-logo:hover {
-    transform: scale(1.05);
-  }
-  
-  .brand-text {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-    
-    .brand-text {
-      font-size: 16px;
-    }
-  
-  @media (max-width: 768px) {
-    .features {
-      flex-direction: column;
-    } 
-  }
->>>>>>> 7c53461b51e4997a2963942c1fcef7187e3e4dd1
 
 .card-desc {
   display: flex;
