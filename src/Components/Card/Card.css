@@ -1,113 +1,37 @@
-.we-supported-by {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-  
-  .features {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  
-  .feature {
-    flex: 1;
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .icon {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 15px;
-  }
-  
-  .feature h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .feature p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.4;
-  }
+.supportedBy .card {
+  background-color: #f3f3f3 !important;
+  color: black;
+  width: fit-content;
+  border: 0px;
+  flex-basis: 30%;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  gap: 16px;
+}
 
-  .brand-logos-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-  }
-  
-  .brand-logos-title {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .brand-logos-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-  
-  .brand-logo {
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .brand-logo:hover {
-    transform: scale(1.05);
-  }
-  
-  .brand-text {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-    
-    .brand-text {
-      font-size: 16px;
-    }
-  
-  @media (max-width: 768px) {
-    .features {
-      flex-direction: column;
-    } 
-  }
+.card img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
 
-  .brand-image {
-    max-width: 80%;
-    height: auto;
-    object-fit: contain;
-  }
-  
-  @media (max-width: 768px) {
-    .brand-image {
-      max-width: 70%;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .brand-image {
-      max-width: 60%;
-    }
-  }
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.card-details {
+  font-size: 1rem;
+  font-weight: 500;
+}

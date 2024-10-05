@@ -1,0 +1,20 @@
+.card-grid .card {
+  background-color: #f3f3f3 !important;
+  color: black;
+  flex-basis: 20%;
+}
+
+.card-grid img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 24px;
+}
