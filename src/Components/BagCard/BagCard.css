@@ -1,0 +1,43 @@
+.bagCard {
+  background-color: #f3f3f3 !important;
+  border: 0px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 48px;
+}
+
+.bagCard .top-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bagCard .bag-image {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bag-image img {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.right-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.right-controls img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}

@@ -1,0 +1,9 @@
+.bags {
+  width: 100%;
+  padding: 24px 42px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 24px;
+}
