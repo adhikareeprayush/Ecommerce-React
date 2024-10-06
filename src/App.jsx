@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero.jsx';
 import SupportedBy from './Components/SupportedBy/SupportedBy.jsx';
 import BrandsCards from './Components/BrandsCards/BrandsCards.jsx';
 import Bags from './Components/Bags/Bags.jsx';
+import HoldingBags from './Components/HoldingBags/HoldingBags.jsx';
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
       <BrandsCards />
       <Bags />
       <SupportedBy />
+      <HoldingBags />
     </>
   )
 }

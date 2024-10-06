@@ -1,0 +1,60 @@
+.holdingBags {
+  display: flex;
+  width: 100%;
+  padding: 0px 42px;
+  justify-content: space-between;
+}
+
+.holdingBags .item {
+  flex-basis: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 500px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.holdingBags .item .top-details .visit {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holdingBags .item .top-details img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.holdingBags .item .image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.holdingBags .item .top-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.holdingBags .item .top-details .name {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: black;
+  max-width: 280px;
+}
